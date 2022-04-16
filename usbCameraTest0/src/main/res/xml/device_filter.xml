@@ -23,6 +23,12 @@
   ~  may have a different license, see the respective files.
   -->
 
+
+
 <usb>
-	<usb-device class="239" subclass="2" />	<!-- all device of UVC -->
+<!--    <usb-device class="0" subclass="0" />	&lt;!&ndash; all device of UVC &ndash;&gt;-->
+<!--    <usb-device vendor-id="1409" product-id="5120" />-->
+
+    <usb-device class="17" subclass="0" />	<!-- 针对华为设备 -->
+    <usb-device vendor-id="1452" product-id="5217" />
 </usb>
